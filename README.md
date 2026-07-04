@@ -1,13 +1,13 @@
 # QR Code Generator
 
-A modern and responsive **QR Code Generator** built using **HTML, CSS, and JavaScript**. The application allows users to generate QR codes instantly for any text or URL using the free QR Code API.
+A modern and responsive **QR Code Generator** built using **HTML**, **CSS**, and **JavaScript**. The application allows users to generate QR codes instantly from any text or URL using the free QR Code API.
 
 ---
 
 ## 🚀 Live Demo
 
-**Vercel:**  
-https://your-vercel-link.vercel.app
+🔗 **Vercel:**  
+https://your-vercel-project.vercel.app
 
 ---
 
@@ -17,7 +17,7 @@ https://your-vercel-link.vercel.app
 
 https://api.qrserver.com/v1/create-qr-code/
 
-Example:
+**Example**
 
 ```text
 https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Hello
@@ -27,17 +27,17 @@ https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Hello
 
 ## ✨ Features
 
-- Generate QR codes for any text or URL
-- Responsive design
-- Clean and modern UI
+- Generate QR codes from any text or URL
+- Clean and modern user interface
+- Fully responsive design
 - Dynamic QR code generation
 - Input validation
-- Regenerate QR code
-- Fast and lightweight
+- Regenerate QR codes instantly
+- Lightweight and fast
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
@@ -46,21 +46,21 @@ https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Hello
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/your-github-username/QR_CODE_GENERATOR.git
+git clone https://github.com/bedu9111/QR_CODE_GENERATOR.git
 ```
 
-Open the project
+Navigate to the project folder
 
 ```bash
 cd QR_CODE_GENERATOR
 ```
 
-Run `index.html` using **Live Server** or open it directly in your browser.
+Open `index.html` in your browser or run it using **Live Server**.
 
 ---
 
@@ -68,19 +68,21 @@ Run `index.html` using **Live Server** or open it directly in your browser.
 
 1. Enter any text or URL.
 2. Click **Generate QR Code**.
-3. The application generates a QR code using the QR Code API.
-4. Click **Regenerate** to create another QR code.
+3. The application requests a QR image from the QR Code API.
+4. The generated QR code is displayed instantly.
+5. Click **Regenerate** to generate another QR code.
 
 ---
 
-## 📈 Future Improvements
+## 📈 Future Enhancements
 
 - Download QR Code
-- Copy Text/URL
+- Copy URL/Text
 - Multiple QR Sizes
 - Dark Mode
+- QR History
 - Loading Animation
-- Better Input Validation
+- Improved Validation
 
 ---
 
@@ -88,14 +90,14 @@ Run `index.html` using **Live Server** or open it directly in your browser.
 
 **Bedanand Kumar Sah**
 
-- GitHub: https://github.com/your-github-username
+- GitHub: https://github.com/bedu9111
 - LinkedIn: https://www.linkedin.com/in/bedanand-sah-43812a365/
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you found this project useful, consider giving it a **⭐ Star** on GitHub.
+If you like this project, consider giving it a ⭐ on GitHub.
 
 ---
 
