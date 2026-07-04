@@ -7,7 +7,7 @@ A modern and responsive **QR Code Generator** built using **HTML**, **CSS**, and
 ## 🚀 Live Demo
 
 🔗 **Vercel:**  
-https://your-vercel-project.vercel.app
+https://qr-code-generator-lemon-seven.vercel.app/
 
 ---
 
