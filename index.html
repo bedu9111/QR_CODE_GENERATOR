@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9eYGCev1WW9NX5ZxFWqxARKk14wRi6Nam8sKclDvBA&s=10" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+           
+            <div class="generate">
+                    <label for="url">Enter Your Text or Url</label>
+                    <input type="text" name="url" id="url" placeholder="Text or Url">
+                    <button class="gBtn">Generate QR Code</button>
+            </div>
+
+            <div class="generated">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="">
+                <button class="rgBtn">Regenerate</button>
+            </div>
+        
+        </div>
+    </div>
+    <script src="app.js" ></script>
+</body>
+</html>
